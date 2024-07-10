@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;  
+}
+
+.blur-background {
+  backdrop-filter: blur(10px);
+  transition: backdrop-filter 0.3s ease;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
