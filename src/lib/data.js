@@ -130,7 +130,7 @@ export const projects = [
       name: "Fivetek | Social Media download",
       image : `${project6}`,
       link : 'https://social-media-download-ujz3.vercel.app/',
-      description: "Fivetek is a web application that allows users to download YouTube and Facebook videos , reel ,tiktok videos and , with all the forms available in the API as well as mp3 form ",
+      description: "Fivetek is a web application that allows users to download YouTube and Facebook videos , reel ,tiktok videos, with all the forms available in the API as well as mp3 form ",
       technologies:'Next js | TypeScript | TailwindCSS | ShadCn | Social media download API',
       id : 'project-6'
   },
