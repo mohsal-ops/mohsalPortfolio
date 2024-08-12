@@ -48,7 +48,7 @@ export const About = ()=> {
             I'm passionate about crafting sleek and user-friendly interfaces that deliver seamless web experiences.
           </motion.p>
           <motion.p variants={{hidden : {opacity : 0 , x : -75} , visible : {opacity : 1 , x : 0}}} initial='hidden' animate = {mainControls} transition={{duration: 0.5, delay:0.175 }}>
-            My journey as a junior developer in the world of React has been an exciting learning adventure. I'm dedicated to continuous growth and thrive on every coding challenge I encounter.
+            My journey as a web developer in the world of Next js has been an exciting learning adventure. I'm dedicated to continuous growth and thrive on every coding challenge I encounter.
           </motion.p>
           <motion.p variants={{hidden : {opacity : 0 , x : 75} , visible : {opacity : 1 , x : 0}}} initial='hidden' animate = {mainControls} transition={{duration: 0.5, delay:0.175}}>
             With a commitment to honing my skills and finding elegant solutions, I'm excited to contribute to the success of your web projects.

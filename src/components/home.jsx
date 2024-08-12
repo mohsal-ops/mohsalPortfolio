@@ -62,7 +62,7 @@ export const Home = () => {
  
   return (
     <>
-    <div className=' flex relative  z-50 md:p-24 md:pl-32 bg-black  text-white  md:h-[80%] h-[115dvh]  gap-4 ' ref = {ref}>
+      <div className=' flex relative  z-50 md:p-24 md:pl-32 bg-black  text-white  md:h-[80%] h-[150dvh]  gap-4 ' ref={ref}>
     <div className='flex items-center justify-center hover:cursor-pointer ' >
         {!Socialmedia ?
         <button onClick={()=>{SCOL()}} className='flex absolute left-0 bg-black text-white fomt-black border-[1px] items-center justify-center rounded-r-lg h-20 w-5 hover:cursor-pointer' >
@@ -99,10 +99,11 @@ export const Home = () => {
           </div>
           <h2 className='hidden md:flex mb-3 text-3xl'> <p className=' inline font-Pacifico '>M</p>ohammed Ben salah</h2>
           <div className='flex gap-6 justify-center  items-start w-full'>
+
             <div className='mt-2 w-24 h-7  border-t-2  border-white  '></div>
             <p className=' text-lg'>
             Greetings! I'm a dedicated front-end developer
-            with a focus on React and over a year of practical 
+            with a focus on React and Next js with over 2 years of practical 
             experience. My true passion lies in creating elegant and intuitive user interfaces that provide 
             flawless web interactions.
             </p>             

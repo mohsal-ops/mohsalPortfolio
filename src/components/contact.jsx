@@ -61,7 +61,7 @@ export const Contact = ()=> {
       </p>
       
      
-      <div className='flex justify-center p-10 items-center sm:border-[1px] md:w-[60%] bg-gray-100 rounded-lg w-full md:shadow-2xl '>
+      <div className='flex justify-center p-10 items-center sm:border-[1px] md:w-[60%]  rounded-lg w-full md:shadow-2xl '>
         <motion.div
         className='flex flex-col items-center justify-center gap-6 md:gap-4 w-full   '>
           <p className='flex h-20 md:h-16 items-center text-white rounded-xl justify-center w-full md:w-[80%] bg-black text-3xl'>Get in touch</p>
