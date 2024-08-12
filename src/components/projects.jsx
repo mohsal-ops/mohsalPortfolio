@@ -1,15 +1,13 @@
 import React, {useEffect,useContext, useRef, useState} from 'react'
-import { motion, useInView, useAnimation } from 'framer-motion'
+import {motion, useInView, useAnimation } from 'framer-motion'
 
-import {  BiLink } from 'react-icons/bi'
+import {BiLink} from 'react-icons/bi'
 import {projects} from '../lib/data'
 import {TheSelectedidINProjects } from './context'
 import { useDispatch } from 'react-redux'
 import { activateDotStyle, deactivateDotStyle } from '../redux/actions'
 import { SlArrowRight } from 'react-icons/sl'
-import { CirclePopLoader, DotsLoader, NotepadLoader } from 'react-loaders-kit'
 import { FaLongArrowAltDown, FaLongArrowAltUp } from 'react-icons/fa'
-import { BsArrowUp } from 'react-icons/bs'
 
 
 export const Projects = () => {
