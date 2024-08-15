@@ -13,7 +13,7 @@ export const Navbar = () => {
 
 
   return (
-      <div className='flex border-b-[1px] md:border-none  w-full lg:w-[80%] z-[990] md:rounded-full shadow-lg bg-black text-white justify-between  items-center h-16 md:mt-3 fixed '>
+      <div className='flex border-b-[1px] md:border-none  w-full lg:w-[80%] z-[990] md:rounded-full shadow-lg bg-white text-black justify-between  items-center h-16 md:mt-3 fixed '>
             <span className='flex w-1/3 h-full rounded-full pl-9 justify-start items-center md:pl-14  text- text-2xl'>
               <Link to='/' className='  '>  
                 <p className='inline font-Pacifico'>P</p>ortfolio

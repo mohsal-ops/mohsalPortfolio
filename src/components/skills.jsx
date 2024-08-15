@@ -35,7 +35,7 @@ export const Skills = ()=> {
       >Skills
       <div className='hidden md:block absolute w-1/3 bottom-0 bg-black h-[3px]'> </div>
       </motion.p>
-      <div className='grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4 relative '>
+      <div className='grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-4 relative '>
         {skillsarray.map((skill)=>{
           return(
           <Motion skillsSection={true}>

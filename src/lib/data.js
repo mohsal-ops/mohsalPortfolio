@@ -13,6 +13,8 @@ import project4 from '../assets/project-4.png'
 import project5 from '../assets/project-5.png'
 import project6 from '../assets/project-6.png'
 import project7 from '../assets/project-7.png'
+import prisma from '../assets/prisma.png'
+import mongodb from '../assets/Mongodb.png'
 
 
 
@@ -65,6 +67,18 @@ export const skillsarray = [
     hash :`${firebaseNDnetlify}`,
     experiance: "1+ year experiance ",
   },
+  {
+    name: "MongoDb",
+    className :"h-1/2 ",
+    hash :`${mongodb}`,
+    experiance: "1+ year experiance ",
+  },
+  {
+    name: "Prisma",
+    className :"h-1/2 ",
+    hash :`${prisma}`,
+    experiance: "1+ year experiance ",
+  },
   
   
 ]
@@ -97,14 +111,14 @@ export const projects = [
       name: "ecomerce | digital products",
       image : `${project1}`,
       link : 'https://ecomerce-dgital.vercel.app/',
-      description: "Udemo presents online services and courses with a clean layout, featuring product images, brief descriptions, and purchase links with admin page allowing an easy addition, editing, and deletion of products.",
+      description: "An online platform for selling courses and digital products, with an admin dashboard for easy product management and secure middleware authentication for data protection.",
       technologies:'Next js | TypeScript | TailwindCSS | ShadCn | mongoDb | Prisma',
       id : 'project-1'
   },
     {
       name: "Image sharing | Social media app",
       image : `${project2}`,
-      description: "ShareMe, built with React, Redux, TailwindCSS, Firebase, and Sanity CMS, features a Masonry layout, real-time updates, dynamic content discovery, and a seamless design for sharing and curating diverse content.",
+      description: "Social media app featuring Google authentication, comprehensive image management (create, edit, delete, save), robust user interaction (like, comment), advanced search and filtering capabilities, and a visually engaging masonry image layout.",
       technologies:'React js | Redux | TailwindCSS | sanityCMS | Firebase',
       link : "https://sharememoh.netlify.app/",
       id : 'project-2'
@@ -113,7 +127,7 @@ export const projects = [
       name: "ecomerce-app | GSAP animations ",
       image : `${project3}`,
       link : 'https://ecom-airjordan-mohsal.netlify.app',
-      description: "the Air Jordan 01 sneakers on our React e-commerce app with GSAP animations, a curated collection, and seamless Stripe checkout.",
+      description: "Full-featured e-commerce platform, incorporating captivating GSAP animations. Delivered a seamless user experience with interactive product listings, detailed showcases, and secure Stripe payment integration.",
       technologies:'React js | TailwindCSS | Sanity CMS',
       id : 'project-3'
     },
@@ -122,7 +136,7 @@ export const projects = [
       name: "Product Management System",
       image : `${project4}`,
       link : 'https://productmanagementsystemm.netlify.app/',
-      description: "Created a user-friendly CRUD and search application with HTML, CSS, and JavaScript, optimizing data management and for any products stock  ",
+      description: "platform for managing products, featuring creation and deletion, customizable options, pricing, tax, ads, discounts, categorization, and advanced search.",
       technologies:'HTML | CSS | JavaScript',
       id : 'project-4'
   },
