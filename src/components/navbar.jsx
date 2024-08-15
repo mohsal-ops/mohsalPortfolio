@@ -13,7 +13,7 @@ export const Navbar = () => {
 
 
   return (
-      <div className='flex border-b-[1px] md:border-none  w-full lg:w-[80%] z-[990] md:rounded-full shadow-lg bg-white text-black justify-between  items-center h-16 md:mt-3 fixed '>
+      <div className='flex border-b-[1px] md:border-none  w-full lg:w-[80%] z-[990] md:rounded-full shadow-lg md:bg-black md:text-white bg-white text-black justify-between  items-center h-16 md:mt-3 fixed '>
             <span className='flex w-1/3 h-full rounded-full pl-9 justify-start items-center md:pl-14  text- text-2xl'>
               <Link to='/' className='  '>  
                 <p className='inline font-Pacifico'>P</p>ortfolio
@@ -26,7 +26,7 @@ export const Navbar = () => {
                   key={item.hash}
                   initial={{ y: -100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  className={currentSection === item.name && 'flex h-[80%] items-center border-b-2 border-gray-600 '}
+                  className={currentSection === item.name && 'flex h-[80%] items-center border-b-2 md:border-white border-gray-600 '}
                   >
                     <a href ={`#${item.hash}` }className='hover:text-gray-600 '> {item.name} </a>
                   </li>

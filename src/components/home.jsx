@@ -8,7 +8,7 @@ import { FaDownload } from 'react-icons/fa'
 import { SlArrowLeft, SlArrowRight } from 'react-icons/sl'
 import { FaLinkedin } from 'react-icons/fa'
 import {AiFillFacebook} from 'react-icons/ai'
-import {BsWhatsapp} from 'react-icons/bs'
+import {BsGithub, BsWhatsapp} from 'react-icons/bs'
 import { TheSelectedidINProjects } from './context'
 
 
@@ -65,7 +65,7 @@ export const Home = () => {
       <div className=' flex justify-center items-center relativ  z-50 md:p-24   md:h-screen   gap-4 ' ref={ref}>
     <div className='flex items-center justify-center hover:cursor-pointer ' >
         {!Socialmedia ?
-            <button onClick={() => { SCOL() }} className='flex absolute left-0 shadow-xl  bg-white text-black border-[1px] items-center justify-center rounded-r-lg h-20 w-5 hover:cursor-pointer' >
+            <button onClick={() => { SCOL() }} className='flex absolute left-0 shadow-xl md:bg-black md:text-white bg-white text-black border-[1px] items-center justify-center rounded-r-lg h-20 w-5 hover:cursor-pointer' >
           <SlArrowRight  />
         </button> 
          :
@@ -78,21 +78,24 @@ export const Home = () => {
           </a>
          <a  href='https://wa.me/213663126792' target='_blank' rel="noopener noreferrer">
                 <BsWhatsapp className='text-black' fontSize={20}/>
-         </a>
-         <button onClick={()=>{SCOL()}} className='flex text-black absolute bg-white -right-5 border-[1px]  items-center justify-center rounded-r-lg h-20 w-5 hover:cursor-pointer' >
+              </a>
+              <a href='https://github.com/mohsal-ops' target='_blank' rel="noopener noreferrer">
+                <BsGithub className='text-black' fontSize={20} />
+              </a>
+              <button onClick={() => { SCOL() }} className='flex md:bg-black md:text-white text-black absolute bg-white -right-5 border-[1px]  items-center justify-center rounded-r-lg h-20 w-5 hover:cursor-pointer' >
           <SlArrowLeft fontSize={20} />
         </button>
         </div>
         }
         
       </div>
-        <div className='flex items-center md:h-[80%] mr-5 justify-center md:items-start md:space-y-6 md:mt-0  mt-24 flex-col md:justify-between md:flex-row md:w-4/5 gap-6  '>
-          <div>
-          <img className='border-4 object-top border-green-700 w-36 h-36 object-cover rounded-full ' src={profile} alt='my picture' />  
+        <div className='flex items-center md:h-full mr-5 justify-center md:items-center md:space-y-6 md:mt-0  mt-24 flex-col md:justify-between md:flex-row md:w-4/5 gap-6  '>
+          <div >
+          <img className='border-4 object-top border-green-700 md:w-52 md:h-52 h-36 w-36 object-cover rounded-full ' src={profile} alt='my picture' />  
           </div>
           <div className='flex flex-col gap-4 items-center justify-center md:w-2/3  lg:items-start '>
             <p className='md:  inline text-3xl font-semibold '>Hi! it's Mohammed  </p>
-            <h2 className='text-green-700 mb-3 text-center text-3xl font-semibold bg-blac'>FullStack | Frontend Web developer </h2>
+            <h2 className='text-green-700 mb-3 text-center text-xl md:text-3xl font-semibold bg-blac'>FullStack | Frontend Web developer </h2>
             <p className=' text-md text-center md:text-start'>
             Greetings! I'm a dedicated front-end web developer
             with a focus on React and Next js with over 2 years of practical 
