@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef , useState }  from 'react'
-import profile from '../assets/profile.png'
+import profile from '../assets/profile.jpg'
 import { Motion } from './motion'
 import { motion, useInView } from 'framer-motion'
 import { useDispatch } from 'react-redux'
