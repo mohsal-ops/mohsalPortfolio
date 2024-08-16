@@ -62,7 +62,7 @@ export const Home = () => {
  
   return (
     <>
-      <div className=' flex justify-center items-center relativ  z-50 md:p-24   md:h-screen   gap-4 ' ref={ref}>
+      <div className=' flex justify-center items-center relativ  z-50 md:p-24 h-screen   gap-4 ' ref={ref}>
     <div className='flex items-center justify-center hover:cursor-pointer ' >
         {!Socialmedia ?
             <button onClick={() => { SCOL() }} className='flex absolute left-0 shadow-xl md:bg-black md:text-white bg-white text-black border-[1px] items-center justify-center rounded-r-lg h-20 w-5 hover:cursor-pointer' >
