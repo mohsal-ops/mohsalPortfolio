@@ -62,7 +62,7 @@ export const Home = () => {
  
   return (
     <>
-      <div className=' flex justify-center items-center relativ  z-50 md:p-24 h-screen   gap-4 ' ref={ref}>
+      <div className=' flex justify-center items-center relativ  z-50 md:p-24 md:h-screen  gap-4 ' ref={ref}>
     <div className='flex items-center justify-center hover:cursor-pointer ' >
         {!Socialmedia ?
             <button onClick={() => { SCOL() }} className='flex absolute left-0 shadow-xl md:bg-black md:text-white bg-white text-black border-[1px] items-center justify-center rounded-r-lg h-20 w-5 hover:cursor-pointer' >
@@ -89,7 +89,7 @@ export const Home = () => {
         }
         
       </div>
-        <div className='flex items-center md:h-full mr-5 justify-center md:items-center md:space-y-6 md:mt-0  mt-24 flex-col md:justify-between md:flex-row md:w-4/5 gap-6  '>
+        <div className='flex items-center md:h-full mr-5 justify-center md:items-center md:space-y-6 md:mt-0  mt-32 flex-col md:justify-between md:flex-row md:w-4/5 gap-6  '>
           <div >
           <img className='border-4 object-top border-green-700 md:w-52 md:h-52 h-36 w-36 object-cover rounded-full ' src={profile} alt='my picture' />  
           </div>
